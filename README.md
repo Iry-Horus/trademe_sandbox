@@ -1,5 +1,5 @@
-Run the Feature or individual Scenarios as per standard execution of Gherkin in IntelliJ.
-Prints results to console using a Hook. Should also be printing a report, but was not able to troubleshoot why this isn't working within a reasonable timeframe.
+1. Run the Feature or individual Scenarios as per standard execution of Gherkin in IntelliJ.
+2. Prints results to console using a Hook built into the frameowork. Should also be printing a report, but was not able to troubleshoot why this isn't                    working within a reasonable timeframe.
 
 Tests are defined according to the given specifications from Flux:
 
