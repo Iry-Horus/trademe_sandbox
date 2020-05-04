@@ -1,0 +1,13 @@
+.idea/
+*.iml
+target/
+target_json/
+.DS_Store
+.classpath
+.factorypath
+.project
+.settings/
+.vscode/
+.build/
+.gradle/
+build/

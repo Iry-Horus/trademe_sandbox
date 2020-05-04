@@ -1,0 +1,1 @@
+Most basic flavour of Java/Selenium web and api template code. No tests, cut down POM, all libraries are included.

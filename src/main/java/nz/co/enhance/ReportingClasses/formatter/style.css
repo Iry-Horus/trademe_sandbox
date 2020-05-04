@@ -1,0 +1,579 @@
+html {
+    min-height: 100%;
+   /* -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-repeat:no-repeat; */
+
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f7f7f7+0,c4c4c4+100 */
+   /* background: #282828; /* Old browsers */
+
+      background: #282828;
+
+}
+
+body {
+    font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    webkit-tap-highlight-color: #aad400;
+    background: #b3b3b3;
+    font-size: 10pt;
+    margin: 0px;
+}
+
+h1,
+h2 {
+    color: #ed1c24
+},
+h3,
+h4,
+h5,
+h6 {
+    font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 700
+}
+
+div.logo {
+    vertical-align:middle;
+    display: inline-block;
+}
+
+img.logo {
+    max-width: 265px;
+    max-height: 70px;
+    min width: 135px
+    min-height: 35px;
+    height: auto;
+    width: auto;
+    padding: 1px;
+    vertical-align:middle;
+    display: inline-block;
+}
+
+div.title-heading {
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    margin-left: 25px;
+    width:auto;
+    height:auto;
+    max-width:500px;
+    color: white;
+
+}
+
+span.title-heading {
+    vertical-align:middle;
+    display: inline-block;
+    text-align: center;
+    font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    margin: 0px;
+    font-size: 20pt;
+}
+
+span.title-heading-date {
+display: inline-block;
+    padding-left: 10px;
+    font-size: 20pt;
+}
+
+@media screen and (max-width: 1024px) {
+    span.title-heading {
+        font-size: 20pt !important;
+        font-size: 2.5vw !important;
+    }
+    .title-heading-date {
+        font-size: 12pt !important;
+        font-size: 1.5vw !important;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .title-heading-date:before {
+        content: '\A';
+        white-space: pre;
+    }
+    span.title-heading {
+        font-size: 20pt !important;
+        font-size: 3vw !important;
+    }
+    .title-heading-date {
+        font-size: 12pt !important;
+        font-size: 2vw !important;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    span.title-heading {
+        font-size: 14pt !important;
+    }
+    .title-heading-date {
+        font-size: 12pt !important;
+    }
+}
+
+.enhance-report, .enhance-summary {
+    padding: 8px;
+    font-color: #ffffff
+}
+
+
+.enhance-report .header {
+    font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.enhance-report .keyword {
+    font-weight: bold;
+}
+
+.enhance-report .description {
+    font-style: italic;
+    margin-left: 20px;
+}
+
+.enhance-report details > section {
+    margin-left: 0px;
+}
+
+.enhance-report ol.steps {
+    list-style-type: none;
+        margin: .2em .75em;
+        padding: .2em;
+        border: 1px solid #000;
+        border-radius: 5px;
+        white-space: pre-wrap;
+        white-space: -moz-pre-wrap;
+        white-space: -pre-wrap;
+        white-space: -o-pre-wrap;
+        word-wrap: break-word;
+
+
+}
+
+.enhance-report .step .embedded-text {
+   /* background: #dddddd;*/
+}
+
+
+.enhance-report .doc_string {
+    margin: 0 0 0 20px;
+}
+
+.enhance-report table {
+    margin-left: 20px;
+    border-collapse: collapse;
+    border-radius: 5px;
+    border-style: hidden; /* hide standard table (collapsed) border */
+    box-shadow: 0 0 0 1px #666; /* this draws the table border  */ 
+    margin-bottom: 5px;
+}
+
+.enhance-report tbody td, .enhance-report tbody th {
+    padding: 3px 4px 3px 4px;
+    border: 1px SOLID #ccc;
+}
+
+.enhance-report tbody tr:last-child td:first-child {
+    border-bottom-left-radius: 5px;
+}
+
+.enhance-report tbody tr:last-child td:last-child {
+    border-bottom-right-radius: 5px;
+}
+
+.enhance-report table.data_table {
+    border-top-left-radius: 5px;
+    border: 1px solid #000;
+    background-color: #282828;
+}
+
+
+.enhance-report table.data_table tbody tr:first-child td:first-child {
+    border-top-left-radius: 5px;
+    border: 1px solid #000;
+    background-color: #282828;
+    color: #ED1C24;
+}
+
+.enhance-report table.data_table tbody tr:first-child td:last-child {
+    border-top-right-radius: 5px;
+    border: 1px solid #000;
+    background-color: #282828;
+    color: #ED1C24;
+}
+
+.enhance-report table.data_table td {
+    border-top-right-radius: 5px;
+    border: 1px solid #000;
+    background-color: #FFFFFF;
+
+}
+
+.enhance-report thead tr td {
+    color: #fff;
+    padding: 3px 4px 3px 4px;
+    font-weight: bold;
+    border-radius: 5px 5px 0px 0px;
+    background-color: #14b0e6;
+    border: 1px SOLID #0b2929;
+}
+
+section.blockelement.feature{
+    background-color: #fff;
+    padding: 5px;
+    border-radius: 8px;
+    margin-bottom: 30px;
+    -webkit-box-shadow: 4px 1px 4px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 4px 1px 4px rgba(0, 0, 0, 0.5);
+    box-shadow: 4px 1px 4px rgba(0, 0, 0, 0.5);
+}
+
+section.blockelement.summary {
+    overflow: hidden;
+        background-color: #fff;
+        padding: 5px;
+        border-radius: 8px;
+        margin-bottom: 5px;
+        -webkit-box-shadow: 4px 1px 4px rgba(0, 0, 0, 0.5);
+        -moz-box-shadow: 4px 1px 4px rgba(0, 0, 0, 0.5);
+        box-shadow: 4px 1px 4px rgba(0, 0, 0, 0.5);
+}
+
+section.blockelement.scenario {
+    padding: 2px;
+    border-radius: 5px;
+    margin: 3px;
+    margin-left: 0px;
+}
+
+.enhance-report .passed {
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#8ee24d+0,12948b+51,8ee24d+100 */
+    background: #12948b; /* Old browsers */
+}
+
+
+li.step.passed pre.embedded-text {
+    margin: .2em .75em;
+    padding: .2em;
+    border: 1px solid #000;
+    background-color: #3DB1A9;
+    border-radius: 5px;
+    white-space: pre-wrap;
+    white-space: -moz-pre-wrap;
+    white-space: -pre-wrap;
+    white-space: -o-pre-wrap;
+    word-wrap: break-word;
+}
+
+li.step.failed pre.embedded-text {
+    margin: .2em .75em;
+    padding: .2em;
+    border: 1px solid #000;
+    background-color: #FB5760;
+    border-radius: 5px;
+    white-space: pre-wrap;
+    white-space: -moz-pre-wrap;
+    white-space: -pre-wrap;
+    white-space: -o-pre-wrap;
+    word-wrap: break-word;
+}
+
+li.step.skipped pre.embedded-text {
+    margin: .2em .75em;
+    padding: .2em;
+    border: 1px solid #000;
+    background-color: #b3b3b3;
+    border-radius: 5px;
+    white-space: pre-wrap;
+    white-space: -moz-pre-wrap;
+    white-space: -pre-wrap;
+    white-space: -o-pre-wrap;
+    word-wrap: break-word;
+}
+
+
+}
+
+.enhance-report .pending {
+    background: #313131;
+}
+
+.enhance-report .undefined {
+       background: #b3b3b3;
+}
+
+.enhance-report .skipped {
+    background: #617e8c;
+}
+
+.enhance-report .failed {
+background: #F80022;
+}
+
+
+.enhance-report .tags {
+    display: inline;
+    font-weight: bold;
+
+}
+
+.enhance-report .tag {
+    margin-right: 0.25em;
+    color: #282828;
+}
+
+.enhance-report .comments {
+    display: inline;
+}
+
+.enhance-report .comment {
+    margin 0;
+    padding 0;
+    font-style: italic;
+}
+
+.enhance-report .error {
+    margin: .2em .75em;
+    padding: .2em;
+    border: 1px solid #900;
+    background-color: #FB5760;
+    border-radius: 5px;
+    white-space: pre-wrap;
+    white-space: -moz-pre-wrap;
+    white-space: -pre-wrap;
+    white-space: -o-pre-wrap;
+    word-wrap: break-word;
+}
+
+
+#cucumber-templates {
+    display: none;
+}
+
+div.title-section {
+    background-color: #313131;
+    padding: 10px;
+    margin: 0px 10px 10px 10px;
+    border-radius: 0px 0px 8px 8px;
+    -webkit-box-shadow: 4px 1px 4px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 4px 1px 4px rgba(0, 0, 0, 0.5);
+    box-shadow: 4px 1px 4px rgba(0, 0, 0, 0.5);
+    white-space: nowrap;
+    overflow: auto;
+}
+
+span.duration {
+    margin-left: 20px;
+    font-style: italic;
+    color: #000;
+    float:right;
+}
+
+span.duration.long {
+    font-weight: bold;
+}
+
+@media screen and (max-width: 750px) {
+    span.duration {
+        display: none;
+    }
+}
+
+.col {
+    float: left;
+    margin-left: 3.2%;
+    margin-bottom: 30px;
+}
+.fullwidth .col {
+    float: none;
+    margin-left: 0;
+}
+/* grid4 col */
+.grid4 .col {
+    width: 22.6%;
+}
+/* grid3 col */
+.grid3 .col {
+    width: 31.2%;
+}
+/* grid2 col */
+.grid2 .col {
+    width: 48.4%;
+}
+/* clear col */
+.grid4 .col:nth-of-type(4n+1),
+.grid3 .col:nth-of-type(3n+1),
+.grid2 .col:nth-of-type(2n+1) {
+    margin-left: 0;
+    clear: left;
+}
+
+/************************************************************************************
+MEDIA QUERIES
+*************************************************************************************/
+/* reset cols to 3-column */
+@media screen and (max-width: 1500px) {
+    /* grid4 */
+    .grid4 .col {
+        width: 31.2%;
+    }
+    .grid4 .col:nth-of-type(4n+1) {
+        margin-left: 3.2%;
+        clear: none;
+    }
+    .grid4 .col:nth-of-type(3n+1) {
+        margin-left: 0;
+        clear: left;
+    }
+}
+
+/* reset cols to 2-column */
+@media screen and (max-width: 1499px) {
+    /* grid4 */
+    .grid4 .col {
+        width: 48.4%;
+    }
+    .grid4 .col:nth-of-type(3n+1) {
+        margin-left: 3.2%;
+        clear: none;
+    }
+    .grid4 .col:nth-of-type(2n+1) {
+        margin-left: 0;
+        clear: left;
+    }
+
+    /* grid3 */
+    .grid3 .col {
+        width: 48.4%;
+    }
+    .grid3 .col:nth-of-type(3n+1) {
+        margin-left: 3.2%;
+        clear: none;
+    }
+    .grid3 .col:nth-of-type(2n+1) {
+        margin-left: 0;
+        clear: left;
+    }
+}
+
+/* reset cols to fullwidth */
+@media screen and (max-width: 1104px) {
+    /* grid4 */
+    .col {
+        width: 100% !important;
+        margin-left: 0 !important;
+        clear: none !important;
+    }
+}
+
+.chart {
+    margin: 10px 10px 10px 10px;
+    overflow:hidden;
+    position: relative;
+    width: 100%;
+    min-height: 350px;
+    height: auto;
+    display:block;
+}
+
+.chart-table {
+    min-height: 0px !important;
+    margin-top: 5px;
+}
+
+tr.tableRow td {
+    text-align: left;
+}
+th.google-visualization-table-table {
+ text-align: center;
+}
+
+
+
+tr.headerRow th:nth-child(2) {
+    background-color: #12948b;
+     text-align: center;
+}
+tr.headerRow th:nth-child(3) {
+    background-color: #ed1c24;
+     text-align: center;
+}
+tr.headerRow th:nth-child(4) {
+    background-color: #b3b3b3;
+}
+tr.headerRow th:nth-child(5) {
+    background-color: #313131;
+}
+
+tr.tableRow td:nth-child(2) {
+    background-color: #12948b;
+     text-align: center;
+}
+tr.tableRow td:nth-child(3) {
+    background-color: #ed1c24;
+    text-align: center;
+}
+tr.tableRow td:nth-child(4) {
+    background-color: #b3b3b3;
+    text-align: center;
+}
+tr.tableRow td:nth-child(5) {
+    background-color: #313131;
+    text-align: center;
+}
+tr.tableRow td:empty {
+    background-color: none !important;
+}
+
+.chartHeading {
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    padding-bottom: 5px;
+}
+
+.chartHeadingTable {
+    padding-top: 20px;
+    text-align: center;
+}
+
+.breakdown {
+    padding: 20px;
+}
+
+.breakdownRow {
+    margin-top: 5px;
+}
+
+.breakdownRow .passed {
+    color: #12948b;
+}
+
+.breakdownRow .pending {
+    color: #282828;
+}
+
+.breakdownRow .undefined {
+    color: #617e8c;
+}
+
+.breakdownRow .skipped {
+    color: #b3b3b3;
+}
+
+.breakdownRow .failed {
+    color: #ff0000;
+}
+/* FA 8/4/19 display the screenshot in 50% of the screen size */
+.steps img {
+    max-width: 50%;
+    height: auto;
+    padding: 10px;
+}
+
+.steps img:hover {
+    opacity: 0.8;
+    filter: alpha(opacity=80); /* For IE8 and earlier */
+    cursor: pointer;
+}
